@@ -1,5 +1,5 @@
 # @ MemorizerGame
-Memorizer Game: A game wherein the players memorizers the digits shown for 5 seconds and then are given 60 seconds to memeorize the numbers and their exact positions as they were visible.  The correct analysis of the answers whether correctly answered or wrongly answered is shown.
+A game wherein the players memorize the digits shown for 5 seconds and then are given 60 seconds to memorize the numbers and their exact positions as they were visible ans enter their guesses.  The correct analysis of the answers whether correctly answered or wrongly answered is shown.
 
 ## > Information
 
@@ -17,7 +17,7 @@ Memorizer Game: A game wherein the players memorizers the digits shown for 5 sec
 <b>Subject: </b> Fundamentals of Algorithms
 
 ## > Idea Behind the game :
-1. The game is called Memorizer, a game to test individual’
+1. The game is called Memorizer, a game to test individual's
 capacity to remember.
 2. The game sets a timer and allows user to memorize the
 numbers available in the grid format.
@@ -45,7 +45,17 @@ wrong/not attempted questions.
 
 ## > Output : 
 
+![image](https://github.com/ruchi961/MemorizerGame/assets/128241982/db11528e-a358-48f3-a9f3-f2300cdd4cd7)
 
+![image](https://github.com/ruchi961/MemorizerGame/assets/128241982/06293ca0-1171-4096-b33b-3fa1e36b20e2)
+
+![image](https://github.com/ruchi961/MemorizerGame/assets/128241982/598f3498-f323-4b53-9944-cc88262191da)
+
+![image](https://github.com/ruchi961/MemorizerGame/assets/128241982/091b2ac8-3efe-4319-bdfc-a7f6a108a149)
+
+![image](https://github.com/ruchi961/MemorizerGame/assets/128241982/5a9456f5-e3dc-4ea0-a4e9-f375baf6deb9)
+
+![image](https://github.com/ruchi961/MemorizerGame/assets/128241982/58ccbf22-78f4-4722-ba4c-3fb1705de373)
 
 
 ## >  Download and run in Python (IDLE) :
