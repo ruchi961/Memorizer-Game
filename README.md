@@ -1,20 +1,17 @@
-# @ MemorizerGame
-A game wherein the players memorize the digits shown for 5 seconds and then are given 60 seconds to memorize the numbers and their exact positions as they were visible ans enter their guesses.  The correct analysis of the answers whether correctly answered or wrongly answered is shown.
+# :green_circle: MemorizerGame
+* A game wherein the players **memorize the digits** shown for **5 seconds** and then are given **60 seconds** to **memorize the numbers and their exact positions** as **they were visible and** **enter their guesses**. 
+* The correct analysis of the answers whether **correctly answered or wrongly answered is then shown**.
 
 ## > Information
 
-<b>Language:</b> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height=50>
+* <b>Language:</b> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height=50>
 
 
-<b>Created (date) :</b> Mar 2021
+* <b>Date Created :</b> Mar 2021
 
+* <b>Created for :</b> Innovative Project
 
-<b>Created in :</b> S.Y. B.Sc (SEM IV)
-
-
-<b>Created for :</b> Innovative Project
-
-<b>Subject: </b> Fundamentals of Algorithms
+* <b>Subject: </b> Fundamentals of Algorithms
 
 ## > Idea Behind the game :
 1. The game is called Memorizer, a game to test individual's
@@ -59,5 +56,5 @@ wrong/not attempted questions.
 
 
 ## >  Download and run in Python (IDLE) :
-Run -> Run Module
+* Run -> Run Module
 
