@@ -1,5 +1,5 @@
-# :green_circle: MemorizerGame
-* A game wherein the players **memorize the digits** shown for **5 seconds** and then are given **60 seconds** to **memorize the numbers and their exact positions** as **they were visible and** **enter their guesses**. 
+# :green_circle: Memorizer-Game
+* A game wherein the players **memorize the digits** shown for **5 seconds** and then are given **60 seconds** to **memorize the numbers and their exact positions** as **they were visible and enter their guesses**. 
 * The correct analysis of the answers whether **correctly answered or wrongly answered is then shown**.
 
 ## > Information
