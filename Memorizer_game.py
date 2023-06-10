@@ -1,11 +1,17 @@
 from tkinter import *
 import time
+import random
 
 
 main_screen = Tk()   # create a GUI window 
 main_screen.geometry("1300x550")
 main_screen.configure(bg='greenyellow')
-li=[[3,7,1],[2,3,1]]
+li=[[],[]]
+for i in range(2):
+    for j in range(3):
+        li[i].append(random.randint(0,9))
+print(li)
+
 count=0
 count2=0
 ans=0
@@ -37,6 +43,7 @@ def start():
         answrong="Wrong/Unanswered Answers : "+ str(6-ans)
         answer.configure(text=ansright)
         answrng.configure(text=answrong)
+        button.configure(state="disable")
         return
     
     count=count+1
@@ -90,17 +97,17 @@ startgame =Label(main_screen, font ='arial 15 bold', width="20",text = 'Memorize
 startgame.grid(column = 0, row = 8)
 
 
-element1=Label(main_screen, font ='arial 15 bold', width="10",text = '3', fg = 'gray25',bg ='mintcream')
+element1=Label(main_screen, font ='arial 15 bold', width="10",text = li[0][0], fg = 'gray25',bg ='mintcream')
 element1.grid(column = 3, row = 2,padx=30, pady=10)
-element2=Label(main_screen, font ='arial 15 bold', width="10",text = '7', fg = 'gray25',bg ='mintcream')
+element2=Label(main_screen, font ='arial 15 bold', width="10",text = li[0][1], fg = 'gray25',bg ='mintcream')
 element2.grid(column = 4, row = 2,padx=10, pady=10)
-element3=Label(main_screen, font ='arial 15 bold', width="10",text = '1', fg = 'gray25',bg ='mintcream')
+element3=Label(main_screen, font ='arial 15 bold', width="10",text = li[0][2], fg = 'gray25',bg ='mintcream')
 element3.grid(column = 5, row = 2,padx=10, pady=10)
-element4=Label(main_screen, font ='arial 15 bold', width="10",text = '2', fg = 'gray25',bg ='mintcream')
+element4=Label(main_screen, font ='arial 15 bold', width="10",text = li[1][0], fg = 'gray25',bg ='mintcream')
 element4.grid(column = 3, row = 3,padx=10, pady=10)
-element5=Label(main_screen, font ='arial 15 bold', width="10",text = '3', fg = 'gray25',bg ='mintcream')
+element5=Label(main_screen, font ='arial 15 bold', width="10",text = li[1][1], fg = 'gray25',bg ='mintcream')
 element5.grid(column = 4, row = 3,padx=10, pady=10)
-element6=Label(main_screen, font ='arial 15 bold', width="10",text = '1', fg = 'gray25',bg ='mintcream')
+element6=Label(main_screen, font ='arial 15 bold', width="10",text = li[1][2], fg = 'gray25',bg ='mintcream')
 element6.grid(column = 5, row = 3,padx=10, pady=10)
 answer=Label(main_screen, font ='arial 15 bold', width="30",text = " ", fg = 'gray25',bg ='greenyellow')
 answer.grid(column = 0, row = 5,padx=10, pady=10)
@@ -115,5 +122,3 @@ button.grid(column = 0, row = 7,padx=10, pady=10)
  
 
 main_screen.mainloop() # start the GUI
-
- 
