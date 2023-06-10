@@ -40,6 +40,17 @@ is right or wrong.
 wrong/not attempted questions.
 8. Game finished.
 
+## > Packages used
+* Tkinter
+
+## > Install Dependencies (Packages)
+```
+cd to scripts_Folder
+```
+```
+pip install tkinter
+```
+
 ## > Output : 
 
 ![image](https://github.com/ruchi961/MemorizerGame/assets/128241982/db11528e-a358-48f3-a9f3-f2300cdd4cd7)
